@@ -22,4 +22,3 @@ six
 sklearn
 seaborn
 xgboost
-nltk
