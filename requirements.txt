@@ -14,8 +14,6 @@ numpy
 pandas
 oauthlib
 opt-einsum
-pyasn1
-pyasn1-modules
 PyYAML
 requests
 requests-oauthlib
