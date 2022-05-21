@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html >
+<body  align="center" style="background-color:#ADD8E6;">
+<head>
+  <meta charset="UTF-8">
+  <title>Sentiment based Recommendation System Deployment</title>
+  
+    <style>
+      body {
+        font-family: "Times New Roman", Times, serif;
+        font-size: 25px;
+      }
+    </style>
+ 
+
+</head>
+
+<body>
+ <div class="part2">
+	<h2 style="text-align:center">Sentiment Based Recommendation System</h2>
+
+    <form align="center" id="upload_text" action="/predict" method="post">
+    	<input type="text" style="text-align:center" id="myText" name="reviews_username" placeholder="UserName" required="required" />
+        <br>
+        <button align="center" type="submit" >Predict</button>
+    </form>
+
+     {{ recommendation }}
+
+ </div>
+
+
+</body>
+</html>
